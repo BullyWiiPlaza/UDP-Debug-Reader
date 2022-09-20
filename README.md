@@ -1,6 +1,6 @@
 # UDP-Debug-Reader
 
-This is a modernized version of the [`UDP-Debug-Reader`](https://github.com/dimok789/loadiine_gx2/tree/master/udp_debug_reader) project by `Dimok` by using the `C++17` standard and `CMake` as build system.
+This is a modernized version of the [`UDP-Debug-Reader`](https://github.com/dimok789/loadiine_gx2/tree/master/udp_debug_reader) project by `Dimok` by using the `C++20` standard and `CMake` as build system.
 
 The `UDP-Debug-Reader` is a PC program which can read `UDP` debug logs sent from Wii U homebrew applications to your PC which is very useful for homebrew development.
 

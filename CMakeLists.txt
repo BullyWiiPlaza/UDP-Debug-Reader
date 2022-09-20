@@ -1,13 +1,13 @@
 cmake_minimum_required(VERSION 3.10)
 
-set(PROJECT_NAME "UDP-Debug-Logger")
+set(PROJECT_NAME "UDP-Debug-Reader")
 project(${PROJECT_NAME})
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 add_executable(${PROJECT_NAME}
-        source/Input.cpp
-        source/Input.hpp
-        source/main.cpp
-        source/network.cpp
-        source/network.hpp)
+        src/Input.cpp
+        src/Input.hpp
+        src/main.cpp
+        src/network.cpp
+        src/network.hpp)
