@@ -28,6 +28,9 @@ make
 ```
 Now your binary should be built successfully.
 
+### macOS
+The same approach as for `Linux` may be used to compile for `macOS`.
+
 ## Usage
 
 The `UDP-Debug-Reader` is a command line application which can be started via double-click (on Windows) or from the command line/terminal. Read the instructions printed on the command line/terminal to learn about the provided features like logging to a file, clearing the output or quitting the `UDP-Debug-Reader`.
