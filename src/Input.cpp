@@ -30,8 +30,8 @@
 FILE *logFile = nullptr;
 
 char CheckInput() {
-	if (!kbhit())
-		return 0;
+	// if (!kbhit())
+	// 	return 0;
 
 	char inputChar = getch();
 
