@@ -22,11 +22,10 @@
  * distribution.
  ***************************************************************************/
 
-#include <cstdio>
 #include <sys/types.h>
 #include <cstring>
 
-#ifdef __unix__
+#if defined(__linux__) || defined(__APPLE__)
 
 #include <unistd.h>
 
